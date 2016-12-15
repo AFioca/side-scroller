@@ -1,6 +1,8 @@
 # Prototype Side-Scroller
 
-This is a prototype for a side scroller that will be used to "gamify" learning content. 
+This is a prototype for a side scroller that will be used to "gamify" learning content.
+
+__Demo:__ https://afioca.github.io/side-scroller/
 
 ## Base Features
 
