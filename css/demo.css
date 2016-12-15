@@ -1,0 +1,22 @@
+#game-canvas {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+#game {
+    position: relative;
+}
+
+#question-overlay {
+    /*display: none;*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.hide {
+    display: none;
+}

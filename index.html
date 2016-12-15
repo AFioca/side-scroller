@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/demo.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="js/bundle.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div id="game">
+                <canvas id="game-canvas" width="1000" height="600"></canvas>
+                <p>Press the space bar to jump.</p>
+                <p>Use the right and left arrow keys to move.</p>
+                <div id="question-overlay" class="hide">
+                    <div id="question-main">
+                        <div id="question-text"></div>
+                        <div id="question-choices"></div>
+                        <button type="button" class="btn btn-success" id="submit-answer">submit</button>
+                    </div>
+                    <div id="question-feedback" class="hide">
+                        <div id="is-correct"></div>
+                        <div id="feedback-text"></div>
+                        <button type="button" class="btn btn-success" id="close-overlay">back to game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
